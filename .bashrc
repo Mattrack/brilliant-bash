@@ -62,3 +62,6 @@ alias gpom="git push origin master"
 
 ### restart: a quick refresh for your shell instance.
 alias restart="source ~/.bashrc"
+
+### clean: remove garbage files recursively
+alias clean='rm -fv `find . \( -name "*.o" -or -name "*~" -or -name "a.out" -or -name "*.pyc" \)`'
